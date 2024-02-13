@@ -22,7 +22,7 @@ public class WordFrequencyService {
     // konvertera till gemener och filtrera bort tomma strängar
     private List<String> tokenizeText(String text) {
         return Arrays.stream(text.split("\\s+"))
-                .map(word -> word.replaceAll("\\W", "").toLowerCase())
+                .map(word -> word.replaceAll("[^\\p{L}\\p{Nd}]", "").toLowerCase())
                 .filter(word -> !word.isEmpty())
                 .collect(Collectors.toList());
     }
