@@ -1,0 +1,40 @@
+/*Typsnitt*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Bestämmer layout för tabellen */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+/* Bestämmer layout för knappar */
+button {
+    padding: 10px 16px;
+    border: 2px solid burlywood;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: bisque;
+    font-size: 16px;
+}
+
+/* Bestämmer layout för tabellens rubriker och celler */
+thead {
+    background-color: rosybrown;
+    color: white;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+th, td{
+    padding: 4px;
+}
+
+/* Bestämmer layout för input */
+input, select {
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    font-size: 18px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Frequency</title>
+    <!-- Sätter koppling till CSS-filen. -->
+    <link rel="stylesheet" type="text/css" href="/static/wordFrequency.css">
+    <!-- Sätter koppling till Javascript-filen. -->
+    <script src="/static/wordFrequency.js"></script>
+</head>
+<body>
+</div>
+<!-- Möjliggör att skriva in text input. -->
+<div id="canvas-form">
+    <input type="text" id="text-input" placeholder="Skriv in text...">
+    <!-- Knapp för att ränka ut ordfrekvens -->
+    <button onclick="fetchWordFrequencies()">Räkna ut frekvens</button>
+    <h1></h1>
+</div>
+<!-- Divs för att kunna skriva ut texten i JavaScript-filen -->
+<div id="table-container"></div>
+</body>
+</html>
