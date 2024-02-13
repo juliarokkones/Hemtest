@@ -24,7 +24,6 @@ public class WordFrequencyController {
         this.wordFrequencyService = wordFrequencyService;
     }
 
-
     //Post-metod för att räkna ord som tar in en sträng som parameter från inmatad text
     @PostMapping("/count")
     public ResponseEntity<List<WordFrequency>> countWordFrequencies(@RequestBody String text) {
