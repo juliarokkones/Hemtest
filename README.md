@@ -1,12 +1,19 @@
 # CGIHemtest - Word Frequency
 
-# Bygg applikationen
-Gör en pull request från master branschen till din utvecklingsmiljö
+# Beskrivning
+Detta är en Java-applikation som räknar ut de 10 mest frekventa orden i en text tillsammans med deras frekvens. Applikationen har ett användargränssnitt där användaren kan mata in önskad text och sedan få ut resultaten direkt.
 
-# Kör applikationen
-Kör applikationen genom att klicka "run" i utvecklingsmiljön och navigera sedan till:
-http://localhost:3000/wordFrequency
+# Bygg och kör applikationen
+För att bygga och köra applikationen, följ stegen nedan:
+
+1. Klona projektet från huvudgrenen (master) till din utvecklingsmiljö.
+2. Öppna projektet i din IDE och konfigurera det enligt dina behov.
+3. Bygg applikationen genom att köra byggkommandot i din IDE.
+4. Navigera sedan till: http://localhost:3000/wordFrequency i din webbläsare.
 
 # Användarbeskrivning
-Mata in vald text i täxtfäletet och tryck sedan på knappen för att räkna ut de 10 mest frekventa orden tillsammans med frekvensen.
-Upprepa för att texta ny text. 
+För att använda applikationen, följ stegen nedan:
+
+1. Mata in vald text i täxtfäletet (det är möjligt att mata in längre text än storleken på textrutan).
+2. Klicka på knappen för att räkna ut de 10 mest frekventa orden tillsammans med deras frekvens.
+3. Upprepa för att räkna ut ordfrekvens av ny text. 
