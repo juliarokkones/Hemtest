@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 // Controllerklass för att hämta webbsidan wordFrequency.html
 @Controller
 public class WebPageController {
-    // Instansvariabel för att lagra applikationsnamnet
+    // Instansvariabel för att lagra applikationsnamnet.
     @Value("my-application")
     String appName;
 
