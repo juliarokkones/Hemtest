@@ -1,7 +1,7 @@
 # Hemtest - Word Frequency
 
 # Beskrivning
-Detta är en Java-applikation som räknar ut de 10 mest frekventa orden i en text tillsammans med deras frekvens. Applikationen har ett användargränssnitt där användaren kan mata in önskad text och sedan få ut resultaten direkt.
+Detta är en Java-applikation som räknar ut de 10 mest frekventa orden i en text tillsammans med deras frekvens. Applikationen har ett användargränssnitt där användaren kan mata in önskad text och sedan få ut resultaten direkt. Applikationen är byggd genom en REST-baserad web api och skapad med Spring Boot.
 
 # Bygg och kör applikationen
 För att bygga och köra applikationen, följ stegen nedan:
